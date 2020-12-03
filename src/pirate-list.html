@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pirates! | View Pirate</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- defer causes the js to load after the html does -->
+    <!-- otherwise we would put the script tag at the bottom of the body -->
+    <script src="js/pirate-list.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="my-container">
+                <h1 class="logo"><a href="index.html">PIRATES!</a></h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pirate-list.html" class="current">View Pirates</a></li>
+                    <li><a href="pirate-form.html">Add Pirate</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div id="pirate-list-img">
+        <section id="pirate-list-main">
+            <h1>Pirate List</h1>
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Pirate ID</th>
+                        <th>Pirate name</th>
+                        <th>Role ID</th>
+                        <th>Role Name</th>
+                    </tr>
+                </thead>
+                <tbody id="pirate-table-data">
+                </tbody>
+            </table>
+        </section>
+    </div>
+    <footer id="main-footer">
+        <p>Blackbeard Inc. &copy; 2020</p>
+    </footer>
+</body>
+</html>

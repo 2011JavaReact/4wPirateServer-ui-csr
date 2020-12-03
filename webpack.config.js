@@ -8,6 +8,6 @@ module.exports ={
     },
     devServer:{
         contentBase: './src',
-        port:9000
+        port:5501
     }
 }
