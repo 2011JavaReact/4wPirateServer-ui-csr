@@ -12,7 +12,7 @@ const placePirate = function(pirateId, pirateName, roleId, roleName) {
     tableBody.appendChild(entry);
 }
 
-const getPirates = function() {
+export const getPirates = function() {
     const xhr = new XMLHttpRequest();
 
     // There are essentially 5 different ready states
@@ -38,5 +38,5 @@ const getPirates = function() {
     xhr.send();
 }
 
-getPirates();
+// getPirates();
 console.log("Hi there!");

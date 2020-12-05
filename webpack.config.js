@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports ={
-    entry: './src/index.js',
+    entry: './src/js/componentInjector.js',
     output: {
         path: __dirname+ '/dist'+ '/scripts',
         filename:'bundle.js'
